@@ -1,0 +1,61 @@
+moskva_ship_size = {
+    entity = moskva_ship_entity
+
+    max_speed = 200
+    acceleration = 1
+    rotation_speed = 0.5
+    collision_radius = 200
+    max_hitpoints = 10000000
+    num_target_locators = 1
+    combat_disengage_chance = 5.0
+
+    size_multiplier = 128
+    fleet_slot_size = 1
+    auto_upgrade = no
+    takes_name_from_ship_design = yes
+
+    is_designable = no
+    is_listed = no
+    can_have_federation_design = no
+    enable_default_design = no
+    enable_3dview_in_ship_browser = yes
+
+    components_add_to_cost = yes
+    resources = {
+        category = ships
+        cost = {
+            energy = 1
+            alloys = 1
+        }
+    }
+    section_slots = { "mid" = { locator = root } }
+
+    required_component_set = "power_core"
+    required_component_set = "ftl_components"
+    required_component_set = "combat_computers"
+    required_component_set = "thruster_components"
+    required_component_set = "sensor_components"
+    required_component_set = "ship_aura_components"
+    required_component_set = "ship_aura_components"
+    required_component_set = "ship_aura_components"
+    required_component_set = "ship_aura_components"
+
+
+    potential_country = {
+        has_country_flag = is_player
+    }
+
+    modifier = {
+
+    }
+    ship_modifier = {
+
+    }
+
+    class = shipclass_military
+
+    ai_ship_data = {
+        min = 0
+        max = 0
+    }
+}

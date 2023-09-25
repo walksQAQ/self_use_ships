@@ -1,0 +1,25 @@
+utility_component_template = {
+    key = moskva_armor
+    size = large
+    icon = GFX_ship_part_armor_5
+    should_ai_use = no
+    hidden = yes
+
+    power = 0
+
+    modifier = {
+
+    }
+    ship_modifier = {
+
+    }
+    triggered_ship_modifier = {
+
+    }
+
+    size_restriction = { moskva_ship_size }
+
+    ai_weight = {
+        weight = 0
+    }
+}

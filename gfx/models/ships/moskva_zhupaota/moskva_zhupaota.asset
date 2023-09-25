@@ -1,0 +1,4 @@
+entity = {
+	name = "moskva_zhupaota_entity"
+	pdxmesh = "moskva_zhupaota_mesh"
+}

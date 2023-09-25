@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "moskva_mesh"
+		file = "gfx/models/ships/moskva/moskva.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HP_Stern_1Shape"
+			index = 0
+			texture_diffuse = "moskva_hull_1_diffuse.dds"
+			texture_normal = "moskva_hull_1_normal.dds"
+			texture_specular = "moskva_hull_1_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HP_Stern_1Shape"
+			index = 1
+			texture_diffuse = "moskva_hull_2_diffuse.dds"
+			texture_normal = "moskva_hull_2_normal.dds"
+			texture_specular = "moskva_hull_2_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HP_RF_1_14Shape"
+			index = 0
+			texture_diffuse = "moskva_hull_3_diffuse.dds"
+			texture_normal = "moskva_hull_3_normal.dds"
+			texture_specular = "moskva_hull_3_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+
+moskva_ship_size:0 "莫斯科号重巡洋舰"
+moskva_ship_size_plural:0 "在项目68-bis的开发过程中，海军元帅库兹涅佐夫（Kuznetsov）提议建造配备220毫米武器的巡洋舰。1951年的一场会议中，管理层下令设计能够摧毁美国得梅因级战舰的“中型巡洋舰”。该项目的开发代号为66，于1953年3月完成。首舰原定于列宁格勒建造，预计于1957年完工；然而，斯大林死后，项目66的进展也戛然而止。"
+moskva_main_gun:0 "220 mm/65（SM-6炮座）"
+moskva_secondary_gun:0 "130 mm/60（BL-109A炮座）"
+moskva_aa_gun_1:0 "45 mm SM-20-ZIF炮座"
+moskva_aa_gun_2:0 "25 mm 110-PM（4М-120炮座）"
+moskva_armor:0 "莫斯科号船体"
+NAME_cruiser_moskva:0 "莫斯科号重巡洋舰"

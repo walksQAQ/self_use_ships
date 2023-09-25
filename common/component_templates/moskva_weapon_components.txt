@@ -1,0 +1,175 @@
+weapon_component_template = {
+    key = moskva_main_gun
+    size = titanic
+    type = instant
+    icon = GFX_ship_part_mass_driver_5
+    icon_frame = 1
+    projectile_gfx = gauss_cannon_s
+    #火炮轨迹暂时没做专有的
+    hidden = yes
+    should_ai_use = no
+
+    tags = {
+        weapon_type_kinetic
+    }
+
+    power = 0
+    firing_arc = 330
+    damage = {
+        min = 0
+        max = 17400
+    }
+    windup = {
+        min = 100.0
+        max = 100.0
+    }
+    total_fire_time = 0
+    range = 800
+
+    hull_damage = 1
+    armor_damage = 1
+    shield_damage = 1
+    armor_penetration = 10
+    shield_penetration = 10
+
+    accuracy = 100
+    tracking = 1.00
+
+    size_restriction = { moskva_ship_size }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+weapon_component_template = {
+    key = moskva_secondary_gun
+    size = large
+    type = instant
+    icon = GFX_ship_part_mass_driver_4
+    icon_frame = 1
+    projectile_gfx = gauss_cannon_s
+    #火炮轨迹暂时没做专有的
+    hidden = yes
+    should_ai_use = no
+
+    tags = {
+        weapon_type_kinetic
+    }
+
+    power = 0
+    firing_arc = 325
+    damage = {
+        min = 0
+        max = 3600
+    }
+    windup = {
+        min = 40.0
+        max = 40.0
+    }
+    total_fire_time = 0
+    range = 400
+
+    hull_damage = 1
+    armor_damage = 1
+    shield_damage = 1
+    armor_penetration = 10
+    shield_penetration = 10
+
+    accuracy = 100
+    tracking = 1.00
+
+    size_restriction = { moskva_ship_size }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+weapon_component_template = {
+    key = moskva_aa_gun_1
+    size = point_defence
+    type = point_defence
+    icon = GFX_ship_part_point_defense_3
+    icon_frame = 1
+    projectile_gfx = white_laser_pd
+    #火炮轨迹暂时没做专有的
+    hidden = yes
+    should_ai_use = no
+
+    tags = {
+        weapon_type_point_defense
+    }
+
+    power = 0
+    firing_arc = 180
+    damage = {
+        min = 0
+        max = 1820
+    }
+    windup = {
+        min = 5.0
+        max = 5.0
+    }
+    total_fire_time = 0
+    range = 66
+
+    hull_damage = 1
+    armor_damage = 1
+    shield_damage = 1
+    armor_penetration = 10
+    shield_penetration = 10
+
+    accuracy = 100
+    tracking = 1.00
+
+    size_restriction = { moskva_ship_size }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+weapon_component_template = {
+    key = moskva_aa_gun_2
+    size = point_defence
+    type = point_defence
+    icon = GFX_ship_part_point_defense_3
+    icon_frame = 1
+    projectile_gfx = white_laser_pd
+    #火炮轨迹暂时没做专有的
+    hidden = yes
+    should_ai_use = no
+
+    tags = {
+        weapon_type_point_defense
+    }
+
+    power = 0
+    firing_arc = 180
+    damage = {
+        min = 264
+        max = 264
+    }
+    windup = {
+        min = 1
+        max = 1
+    }
+    total_fire_time = 0
+    range = 66
+
+    hull_damage = 1
+    armor_damage = 1
+    shield_damage = 1
+    armor_penetration = 10
+    shield_penetration = 10
+
+    accuracy = 100
+    tracking = 1.00
+
+    size_restriction = { moskva_ship_size }
+
+    ai_weight = {
+        weight = 0
+    }
+}

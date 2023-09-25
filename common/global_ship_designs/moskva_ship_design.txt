@@ -1,0 +1,99 @@
+ship_design = {
+    name = NAME_cruiser_moskva
+    ship_size = moskva_ship_size
+    is_event_design = yes
+    use_design_name = yes
+
+    section = {
+        template = moskva_mid
+        slot = mid
+
+        #主炮组
+        component = {
+            slot = t_weapon_1
+            template = moskva_main_gun
+        }
+        component = {
+            slot = t_weapon_2
+            template = moskva_main_gun
+        }
+        component = {
+            slot = t_weapon_3
+            template = moskva_main_gun
+        }
+
+        #副炮组
+        component = {
+            slot = l_weapon_1
+            template = moskva_secondary_gun
+        }
+        component = {
+            slot = l_weapon_2
+            template = moskva_secondary_gun
+        }
+        component = {
+            slot = l_weapon_3
+            template = moskva_secondary_gun
+        }
+        component = {
+            slot = l_weapon_4
+            template = moskva_secondary_gun
+        }
+
+        #防空炮组
+        component = {
+            slot = p_weapon_1
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_2
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_3
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_4
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_5
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_6
+            template = moskva_aa_gun_1
+        }
+        component = {
+            slot = p_weapon_7
+            template = moskva_aa_gun_2
+        }
+        component = {
+            slot = p_weapon_8
+            template = moskva_aa_gun_2
+        }
+        component = {
+            slot = p_weapon_9
+            template = moskva_aa_gun_2
+        }
+        component = {
+            slot = p_weapon_10
+            template = moskva_aa_gun_2
+        }
+        component = {
+            slot = p_weapon_11
+            template = moskva_aa_gun_2
+        }
+        component = {
+            slot = p_weapon_12
+            template = moskva_aa_gun_2
+        }
+
+        #装甲模块
+        component = {
+            slot = LARGE_UTILITY_1
+            template = moskva_armor
+        }
+    }
+}

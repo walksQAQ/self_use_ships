@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "moskva_130_mesh"
+		file = "gfx/models/ships/moskva_130/moskva_130.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HP_RGS_1_18Shape"
+			index = 0
+			texture_diffuse = "moskva_130mm_diffuse.dds"
+			texture_normal = "moskva_130mm_normal.dds"
+			texture_specular = "moskva_130mm_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

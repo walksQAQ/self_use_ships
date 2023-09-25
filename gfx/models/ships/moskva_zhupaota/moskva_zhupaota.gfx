@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "moskva_zhupaota_mesh"
+		file = "gfx/models/ships/moskva_zhupaota/moskva_zhupaota.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HP_RGM_2_17Shape"
+			index = 0
+			texture_diffuse = "moskva_220mm_diffuse.dds"
+			texture_normal = "moskva_220mm_normal.dds"
+			texture_specular = "moskva_220mm_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

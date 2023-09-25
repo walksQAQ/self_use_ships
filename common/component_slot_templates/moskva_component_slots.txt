@@ -1,0 +1,4 @@
+moskva_main_gun = { size = titanic component = weapon entities = { weapon_type_energy = moskva_zhupaota_entity weapon_type_explosive = moskva_zhupaota_entity weapon_type_kinetic = moskva_zhupaota_entity } }
+moskva_secondary_gun = { size = large component = weapon entities = { weapon_type_energy = moskva_130_entity weapon_type_explosive = moskva_130_entity weapon_type_kinetic = moskva_130_entity } }
+moskva_aa_gun_1 = { size = point_defence component = weapon entities = { weapon_type_point_defense = moskva_aa_1_entity } }
+moskva_aa_gun_2 = { size = point_defence component = weapon entities = { weapon_type_point_defense = moskva_aa_2_entity } }

@@ -1,0 +1,22 @@
+entity = {
+	name = "moskva_entity"
+	pdxmesh = "moskva_mesh"
+
+	scale = 10.0
+
+	default_state = idle
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_plasma_main" particle = "generic_075_exhaust_circle_idle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_1" particle = "generic_075_exhaust_circle_idle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_2" particle = "generic_075_exhaust_circle_idle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_3" particle = "generic_075_exhaust_circle_idle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_4" particle = "generic_075_exhaust_circle_idle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_plasma_main" particle = "generic_1_exhaust_circle_moving" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_1" particle = "generic_1_exhaust_circle_moving" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_2" particle = "generic_1_exhaust_circle_moving" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_3" particle = "generic_1_exhaust_circle_moving" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_plasma_4" particle = "generic_1_exhaust_circle_moving" trigger_once = yes keep_particle = yes }
+	}
+}
